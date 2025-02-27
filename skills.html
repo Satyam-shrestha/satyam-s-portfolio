@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+   <style>
+    body{
+        background-color: #000000;
+    }
+    .container-1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav ul {
+    background-color: black;
+    padding-inline: 20px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul h1 {
+    color: #a9d335;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    background-color: black;
+    color: #a9d335;
+    text-decoration: none;
+    font-size: 18px;
+}
+  .skills-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Arrange content side by side */
+    align-items: flex-start;
+    gap: 20px;
+    color: #a9d335;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 2; /* Allows the skills section to take more space */
+}
+
+.skill {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar .progress {
+    background: linear-gradient(90deg, #2facb1, #3a9696);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.skill span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #a9d335;
+}
+
+.showcase {
+    flex: 1; /* Allows the image section to take less space */
+    text-align: center;
+}
+
+.showcase img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+footer p {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #ffffff;
+    margin: 0;
+    padding: 20px; 
+    text-align: center;
+    width: 100%; 
+}
+
+
+   </style>
+</head>
+<body>
+    <div class="container-1">
+        <nav>
+            <ul>
+                <h1>Welcome to My Portfolio</h1>
+                <li><a href="portfolio main page.html">About</a></li>
+                <li><a href="project works .html">Projects</a></li>
+                <li><a href="XXXX">Contact</a></li>
+                <li><a href="Satyam Shrestha r-resume pdf.pdf">CV Download</a></li>
+            </ul>
+        </nav>
+    <div class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-header">
+                    <h3>Hyper Text Markup Language (HTML)</h3>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill">
+                <div class="skill-header">
+                    <h3>Cascading Style Sheets (CSS)</h3>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+                <span>85%</span>
+            </div>
+            <div class="skill">
+                <div class="skill-header">
+                    <h3>JavaScript (JS)</h3>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+                <span>50%</span>
+            </div>
+        </div>
+        <div class="showcase">
+            <img src="rrrrikku .jpg.jpg" alt="ME">
+        </div>
+    </div>
+    <footer>
+        <div class="container-1">
+            <nav>
+                <ul>
+                    <li><a href="XXXX">INSTAGRAM</a></li>
+                    <li><a href="XXXX">FACEBOOK</a></li>
+                    <li><a href="XXXX">LINKEDIN</a></li>
+                    <li><a href="XXXX">GITHUB</a></li>
+                </ul>
+            </nav>
+            <p>This portfolio is only for satyam shrestha.</p>
+    </footer>
+</body>
+</html>
